@@ -6,30 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Javascript CRUD Application</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <link rel="stylesheet" href="main.css"
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
 </head>
 <body>
         <div class="container">
-            <h2 class="heading">Javascript CRUD Application</h2>
+            <h2 class="heading">Javascript CRUD Application By Abhishek Kumar</h2>
 
         
 
         <div class="adduser">
-            <div class="row">
+            <div class="row" style="margin-bottom: 15px;">
                 <div class="col-md-12">
                 <p>Add User</p>
             </div>
                 <div class="col-md-10">
-                    <input type="text" class="form-control">
+                    <input type="text" class="form-control" id = "data">
                 </div>
                 <div class="col-md-2">
-                    <button type="button" class="btn btn-primary">Add User</button>
+                    <button type="button" class="btn btn-primary" id = "adduser" onclick="addUser();">Add User</button>
                 </div>
 
             </div>
 
-            <div class="user">
-                <div class="col-md-6"></div>
+            <div class="row">
+                <div class="col-md-12">
+                    <br>
+                    <p>User List</p>
+                </div>
+
+            </div>
+
+            <div class="user" id = "userlist">
+
+                <div class="row" style="margin-bottom: 15px;">
+               
+
+                <div class="col-md-6 col-sm-12 col-xs-12">
+
+                    <input type="text" class = "form-control">
+
+                </div>
+
+                
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <button type="button" class="btn btn-success">Edit</button>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <button type="button" class="btn btn-success">Update</button>
+                </div>
+
+                <div class="col-md-2 col-sm-4 col-xs-4">
+                    <button type="button" class="btn btn-danger">Delete</button>
+                </div>
+
+            </div>
 
             </div>
 
