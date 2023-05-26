@@ -21,7 +21,7 @@ var html =  '<div class="row" id = "data'+counter+'" style="margin-bottom: 15px;
     '<button type="button" class="btn btn-success" onclick="edit(this.id)" id="edit'+counter+'">Edit</button>'+
 '</div>'+
 
-'+<div class="col-md-2 col-sm-4 col-xs-4">'+
+'<div class="col-md-2 col-sm-4 col-xs-4">'+
     '<button type="button" class="btn btn-success" onclick="update(this.id)" id="update'+counter+'">Update</button>'+
 '</div>'+
 
