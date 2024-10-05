@@ -1,0 +1,7 @@
+*{margin: 0px; padding: 0px;}
+.heading{color:#fff; background: rgb(19, 19, 219); text-transform: uppercase; margin-bottom: 50 px;}
+.btn, .form-control{
+    border-radius: 0px;
+}
+
+p{color: rgb(19, 19, 219)}
